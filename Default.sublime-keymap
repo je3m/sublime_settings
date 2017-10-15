@@ -1,0 +1,22 @@
+[
+    {
+        "keys": ["ctrl+alt+f"], "command": "astyleformat",
+        "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}]
+    },
+    {
+        "keys": ["ctrl+-", "ctrl+f"], "command": "astyleformat", "args": {"selection_only": true},
+        "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}]
+    },
+    { 
+        "keys":["ctrl+alt+n"], "command": "new_file" 
+    },
+    { "keys": ["ctrl+shift+b"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+f"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+    { "keys": ["ctrl+shift+p"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+n"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+    { "keys": ["alt+shift+b"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+    { "keys": ["alt+shift+f"], "command": "move", "args": {"by": "words", "forward": true, "extend": true} },
+
+    { "keys": ["ctrl+alt+o"], "command": "prompt_open_file" },
+    {"keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+]
