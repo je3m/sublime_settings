@@ -19,4 +19,7 @@
 
     { "keys": ["ctrl+alt+o"], "command": "prompt_open_file" },
     {"keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+    {"keys": ["ctrl+k"], "command": "sbp_move_then_delete", "args": {"move_cmd": "sbp_move_for_kill_line"}},
+    { "keys": ["ctrl+alt+shift+n"], "command": "find_under_expand" },
+    { "keys": ["ctrl+alt+shift+r"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 ]
